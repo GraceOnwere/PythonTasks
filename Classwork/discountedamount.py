@@ -10,12 +10,12 @@ total_purchase_amount = int(input('Enter your purchase amount: '))
 
 if total_purchase_amount >= 1000 and total_purchase_amount <= 10000:
     discounted_amount_one = total_purchase_amount * 0.05
-    print('Your final amount is ', total_purchase_amount + discounted_amount_one)
+    print('Your final amount is ', total_purchase_amount - discounted_amount_one)
 
 elif total_purchase_amount >= 10000 and total_purchase_amount <=50000:
     discounted_amount_two = total_purchase_amount * 0.1
-    print('Your final amount is ', total_purchase_amount + discounted_amount_two)
+    print('Your final amount is ', total_purchase_amount - discounted_amount_two)
 
 elif total_purchase_amount >50000:
     discounted_amount_three = total_purchase_amount * 0.2
-    print('Your final amount is ', total_purchase_amount + discounted_amount_three)
+    print('Your final amount is ', total_purchase_amount - discounted_amount_three)
